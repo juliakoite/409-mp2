@@ -30,7 +30,7 @@ export default function Card({
         },
         element("img", {
             className: "movie-poster",
-            src: "https://image.tmdb.org/t/p/w300${posterPath}",
+            src: `https://image.tmdb.org/t/p/w300${posterPath}`,
             alt: title,
         }),
         element("div", {className: "movie-info" },
