@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import Stylesheet from './components/Stylesheet';
 import axios from 'axios';
