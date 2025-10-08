@@ -1,0 +1,37 @@
+.movie-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #000;
+  color: white;
+  min-height: 100vh;
+  padding: 2rem;
+}
+
+.movie-poster {
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px #ff7518;
+  margin-bottom: 2rem;
+}
+
+.movie-info {
+  max-width: 600px;
+  text-align: center;
+}
+
+.movie-title {
+  color: #ff7518;
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.movie-date {
+  color: #ccc;
+  margin-bottom: 1rem;
+}
+
+.movie-overview {
+  line-height: 1.6;
+}
+

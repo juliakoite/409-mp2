@@ -1,0 +1,21 @@
+.home {
+  background-color: #000;
+  color: #ff7518;
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Creepster', cursive;
+}
+
+.home-title {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.home-subtitle {
+  color: #fff;
+  font-size: 1.25rem;
+}
