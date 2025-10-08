@@ -28,6 +28,7 @@ export default function Card({
         { 
             className: "card", onClick
         },
+        
         element("img", {
             className: "movie-poster",
             src: `https://image.tmdb.org/t/p/w300${posterPath}`,

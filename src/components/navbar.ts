@@ -16,8 +16,7 @@ export default function Navbar(): React.ReactElement {
         "div",
         { className: "navbar-links" },
         e(Link, { to: "/", className: "navbar-link" }, "Home"),
-        e(Link, { to: "/search", className: "navbar-link" }, "Search"),
-        e(Link, { to: "/favorites", className: "navbar-link" }, "Favorites")
+        e(Link, { to: "/search", className: "navbar-link" }, "Search")
       )
     )
   );
